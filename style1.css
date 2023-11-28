@@ -179,6 +179,11 @@ body
   background-position: center;
   background-size: cover;
   margin-left: 70px;
+  transition: transform 0.5s;
+}
+.card1:hover
+{
+  transform: translateY(-10px);
 }
 .card2
 {
@@ -194,6 +199,11 @@ body
   background-position: center;
   background-size: cover;
   margin-left: 70px;
+  transition: transform 0.5s
+}
+.card2:hover
+{
+  transform: translateY(-10px);
 }
 .card3
 {
@@ -209,8 +219,12 @@ body
   background-position: center;
   background-size: cover;
   margin-left: 70px;
+  transition: transform 0.5s
 }
-
+.card3:hover
+{
+  transform: translateY(-10px);
+}
 .card4
 {
   width: 150px;
@@ -225,7 +239,12 @@ body
   background-position: center;
   background-size: cover;
   margin-left: 70px;
+  transition: transform 0.5s
   
+}
+.card4:hover
+{
+  transform: translateY(-10px);
 }
 .card5
 {
@@ -242,7 +261,11 @@ body
     background-position: center;
     background-size: cover;
     margin-left: 70px;
-    
+    transition: transform 0.5s
+}
+.card5:hover
+{
+  transform: translateY(-10px);
 }
 .card6
 {
@@ -259,7 +282,11 @@ body
     background-position: center;
     background-size: cover;
     margin-left: 70px;
-    
+    transition: transform 0.5s
+}
+.card6:hover
+{
+  transform: translateY(-10px);
 }
 .card7
 {
@@ -276,7 +303,12 @@ body
     background-position: center;
     background-size: cover;
     margin-left: 70px;
+    transition: transform 0.5s
     
+}
+.card7:hover
+{
+  transform: translateY(-10px);
 }
 .card8
 {
@@ -293,7 +325,12 @@ body
     background-position: center;
     background-size: cover;
     margin-left: 70px;
+    transition: transform 0.5s
     
+}
+.card8:hover
+{
+  transform: translateY(-10px);
 }
 .card9
 {
@@ -310,7 +347,12 @@ body
     background-position: center;
     background-size: cover;
     margin-left: 70px;
+    transition: transform 0.5s
     
+}
+.card9:hover
+{
+  transform: translateY(-10px);
 }
 .card10
 {
@@ -327,7 +369,12 @@ body
     background-position: center;
     background-size: cover;
     margin-left: 70px;
+    transition: transform 0.5s
     
+}
+.card10:hover
+{
+  transform: translateY(-10px);
 }
 .card11
 {
@@ -344,7 +391,12 @@ body
     background-position: center;
     background-size: cover;
     margin-left: 70px;
+    transition: transform 0.5s
     
+}
+.card11:hover
+{
+  transform: translateY(-10px);
 }
 .card12
 {
@@ -361,7 +413,12 @@ body
     background-position: center;
     background-size: cover;
     margin-left: 70px;
+    transition: transform 0.5s
     
+}
+.card12:hover
+{
+  transform: translateY(-10px);
 }
 .blur 
 {
