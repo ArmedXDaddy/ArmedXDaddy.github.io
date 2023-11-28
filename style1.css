@@ -1,6 +1,9 @@
 @media only screen and (max-width: 768px) {
   .container {
-    flex-direction: row;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
   }
 
   .head {
@@ -18,9 +21,8 @@
   }
 
   .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12 {
-    width: 100%;
-    margin-left: 0;
-    margin-bottom: 10px;
+   width: 90%; 
+        margin-bottom: 20px;
   }
 }
 
