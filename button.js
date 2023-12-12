@@ -28,10 +28,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     loginForm.addEventListener('submit', function(event) {
         event.preventDefault();
-        const username = document.getElementById('crazyani').value;
-        const password = document.getElementById('aniandabhi').value;
-        const predefinedUsername = 'username';
-        const predefinedPassword = 'password';
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        const predefinedUsername = 'crazyani';
+        const predefinedPassword = 'aniandabhi';
         if (username === predefinedUsername && password === predefinedPassword) {
             body.classList.remove('blur-background');
             setTimeout(function() {
