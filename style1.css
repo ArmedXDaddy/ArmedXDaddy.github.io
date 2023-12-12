@@ -493,7 +493,7 @@ body
   backdrop-filter: blur(3px);
 }
 .login-box {
-  background: transparent;
+  background-color: white;
   border: 2px solid rgba(255,255,255, .2);
   padding: 40px;
   width: 400px;
@@ -506,21 +506,21 @@ body
 
   margin-bottom: 20px;
   font-size: 24px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
 }
 .login-box input[type="text"]
 {
   padding: 12px;
   margin-bottom: 20px;
-  border: 1px solid #ffffff;
-  color: white;
-  background: transparent;
+  border: 1px solid #000000;
+  color: rgb(0, 0, 0);
+  background-color: white;
   border-radius: 25px;
   width: calc(100% - 26px);
   box-sizing: border-box;
   font-size: 16px;
-  background-image: url(bx-user.svg);
+  background-image: url(/Users/anshulsharma/Downloads/bx-user.svg);
   background-repeat: no-repeat;
   background-position: 10px center;
   padding-left: 40px;
@@ -529,13 +529,14 @@ body
 {
   padding: 12px;
   margin-bottom: 20px;
-  background: transparent;
-  border: 1px solid #ffffff;
+  background-color: white;
+  border: 1px solid #000000;
+  color: black;
   border-radius: 25px;
   width: calc(100% - 26px);
   box-sizing: border-box;
   font-size: 16px;
-  background-image: url(bx-lock-alt.svg);
+  background-image: url(/Users/anshulsharma/Downloads/bx-lock-alt.svg);
   background-repeat: no-repeat;
   background-position: 10px center;
   padding-left: 40px;
@@ -563,11 +564,11 @@ body
 .login-box label {
   margin-bottom: 10px;
   position: left;
-  color: white;
+  color: rgb(6, 6, 6);
   
 }
 .login-box ::placeholder{
-  color: white;
+  color: rgb(116, 112, 112);
 }
 
 .login-box input {
