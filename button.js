@@ -21,3 +21,24 @@ window.addEventListener('click', function(event) {
         modalContainer.style.display = 'none';
     }
 });
+document.addEventListener('DOMContentLoaded', function() {
+    const loginForm = document.getElementById('loginForm');
+    const loginContainer = document.querySelector('.login-container');
+    const body = document.querySelector('body');
+
+    loginForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const username = document.getElementById('crazyani').value;
+        const password = document.getElementById('aniandabhi').value;
+        const predefinedUsername = 'username';
+        const predefinedPassword = 'password';
+        if (username === predefinedUsername && password === predefinedPassword) {
+            body.classList.remove('blur-background');
+            setTimeout(function() {
+                loginContainer.style.display = 'none';
+            }, 500);
+        } else {
+            alert('Incorrect username or password. Please try again.');
+        }
+    });
+});
