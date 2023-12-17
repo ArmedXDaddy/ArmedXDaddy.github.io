@@ -99,7 +99,7 @@ body
 {
   font-family: Caveat;
   margin-left: 70px;
-  color: black;
+  color: white;
   font-size: 120px;
 
 }
@@ -119,9 +119,10 @@ body
 {
   display: flex;
   margin-left: 70px;
-  color: cyan;
+  color: rgb(206, 18, 134);
   font-size: 15px;
   line-height: 15px;
+  font-weight: 28px;
 }
 .button
 {
