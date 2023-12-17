@@ -593,4 +593,8 @@ body
   height: 100%;
   z-index: -1; 
   object-fit: cover;
+  transition: opacity 1.5s ease;
+}
+#video-background.loaded {
+  opacity: 1; 
 }
