@@ -15,7 +15,8 @@
   .para {
     font-size: 12px;
     line-height: 12px;
-    color: black;
+    color: rgb(19, 220, 146);
+    font-weight: 8px;
   }
 
   .button, .button1 {
