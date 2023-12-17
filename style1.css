@@ -9,11 +9,13 @@
 
   .head {
     font-size: 30px;
+    color: black;
   }
 
   .para {
     font-size: 12px;
     line-height: 12px;
+    color: black;
   }
 
   .button, .button1 {
